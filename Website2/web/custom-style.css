@@ -1,0 +1,160 @@
+/*
+    Lauren Maslanka's custom style sheet for Responsive Design!
+*/
+
+/*Style for Mobile Devices*/
+body
+{
+    margin:0;
+    padding:0;
+}
+
+/*.container
+{
+    width:100%;
+}*/
+
+ #headline {
+        padding: 0.8em;
+        color: white;
+        font-family: Roboto, helvetica, arial, sans-serif;
+        background-color: black;
+        background-image: url(images/elephants2.jpg);
+        background-size:cover;
+      }
+
+      #headline h1 {
+        font-weight: 200;
+        font-size: 60px;
+        line-height: 1em;
+        margin-bottom: 0;
+      }
+        
+      #headline h2 {
+        font-weight: 200;
+        font-size: 30px;
+        margin-top: 5px;
+      }
+
+      #headline #blurb {
+        font-weight: 200;
+        font-size: 18px;
+      }
+
+   #register {
+        background-color: #39b1a4;
+        background-color: rgba(57,177, 164, 0.7);
+        padding: 1em;
+      }
+
+      #headline #register h2 {
+        font-weight: 100;
+        padding: 0;
+        margin: 0;
+      }
+
+      #headline #register label {
+        font-size: 1.2em;
+        font-weight: 200;
+        padding-top: 12px;
+        display: block;
+      }
+
+      #headline #register input {
+        width: 100%;
+        font-size: 18px;
+        font-weight: 200;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+
+      #headline #register input[type=submit] {
+        background-color: hsl(8, 70%, 54%);
+        color: white;
+        margin-top: 20px;
+        padding: 10px;
+        border: none;
+        box-sizing: border-box;
+        font-size: 18px;
+      }
+      
+      navbar
+      {
+         /*background-color:black;*/
+      }
+
+
+
+
+/*Style for Desktop Screen Width*/ 
+@media screen and (min-width: 600px) 
+{
+
+    .container
+    {
+        margin: auto;
+        max-width: 800px;
+    }
+    
+     #headline #register {
+            float:right;
+            padding: 20px;
+            width: 50%;
+            box-sizing: border-box;
+            font-weight: 300;
+          }
+    
+    #section1 #section2, #section3 
+    {
+        box-sizing: border-box;
+        padding: 10px 20% 80px 20%;
+    }
+
+    #section1 h2, #section2 h2, #section3 h2  
+    {
+        margin-top: 0;
+        font-size: 60px
+    }
+
+    #section1 ul 
+    {
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        padding-right: 1em;
+    }
+
+    #section1 video 
+    {
+        width: 50%;
+        float: right;
+    }
+
+    #section1 video 
+    {
+        box-sizing: border-box;
+        width: 50%;
+        float: right;
+    }
+
+    #section1 br 
+    {
+        clear: both;
+    }
+
+    #section2 div img 
+    {
+        width: 30%;
+        margin: 1%;
+        box-sizing: border-box;
+        border-radius: 50% 50%;
+        box-shadow: black 0px 0px 5px;
+    }
+
+}
+
+
+
+
+
+
